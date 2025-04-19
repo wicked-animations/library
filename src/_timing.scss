@@ -1,0 +1,12 @@
+@use './variables' as *;
+@each $key, $val in $timing-values {
+  .duration-#{$key} {
+    animation-duration: #{$val};
+  }
+}
+
+@each $key, $val in $delay-values {
+  .delay-#{$key} {
+    animation-delay: #{$val};
+  }
+}

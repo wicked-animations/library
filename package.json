@@ -1,0 +1,21 @@
+{
+  "name": "wicked-animations",
+  "version": "1.0.0",
+  "description": "A utility-first CSS animation library for slick UI & presentation transitions.",
+  "scripts": {
+    "build": "sass src/index.scss dist/wicked.css"
+  },
+  "author": "Dušan Osmokrović",
+  "license": "MIT",
+  "keywords": [
+    "scss",
+    "css",
+    "animation",
+    "utility",
+    "presentation",
+    "library"
+  ],
+  "dependencies": {
+    "sass": "^1.86.3"
+  }
+}

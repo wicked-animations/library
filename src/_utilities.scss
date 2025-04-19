@@ -1,0 +1,227 @@
+@use './variables' as *;
+.wicked {
+  &-fadeIn {
+    animation-name: fadeIn;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeInTop {
+    animation-name: fadeInTop;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeInBottom {
+    animation-name: fadeInBottom;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeInRight {
+    animation-name: fadeInRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeOut {
+    animation-name: fadeOut;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeOutTop {
+    animation-name: fadeOutTop;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeOutBottom {
+    animation-name: fadeOutBottom;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeOutLeft {
+    animation-name: fadeOutLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-fadeOutRight {
+    animation-name: fadeOutRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-shakeX {
+    animation-name: shakeX;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-shakeY {
+    animation-name: shakeY;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpInTop {
+    animation-name: jumpInTop;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpInBottom {
+    animation-name: jumpInBottom;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpInLeft {
+    animation-name: jumpInLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpInRight {
+    animation-name: jumpInRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpOutTop {
+    animation-name: jumpOutTop;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpOutBottom {
+    animation-name: jumpOutBottom;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpOutLeft {
+    animation-name: jumpOutLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-jumpOutRight {
+    animation-name: jumpOutRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-bounceIn {
+    animation-name: bounceIn;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-bounceOut {
+    animation-name: bounceOut;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-rotateX {
+    animation-name: rotateX;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-rotateY {
+    animation-name: rotateY;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-rotateZ {
+    animation-name: rotateZ;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-spinIn {
+    animation-name: spinIn;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-spinOut {
+    animation-name: spinOut;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-rollLeft {
+    animation-name: rollLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-rollRight {
+    animation-name: rollRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-rollOutLeft {
+    animation-name: rollOutLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-rollOutRight {
+    animation-name: rollOutRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurIn {
+    animation-name: blurIn;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurInTop {
+    animation-name: blurInTop;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurInBottom {
+    animation-name: blurInBottom;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurInLeft {
+    animation-name: blurInLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurInRight {
+    animation-name: blurInRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurOut {
+    animation-name: blurOut;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurOutTop {
+    animation-name: blurOutTop;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurOutBottom {
+    animation-name: blurOutBottom;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurOutLeft {
+    animation-name: blurOutLeft;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blurOutRight {
+    animation-name: blurOutRight;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-wave {
+    animation-name: wave;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-blink {
+    animation-name: blink;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-doorOpen {
+    animation-name: doorOpen;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+
+  &-vanish {
+    animation-name: vanish;
+    animation-duration: $duration-default $ease-default forwards;
+  }
+}
