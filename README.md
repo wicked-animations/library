@@ -27,6 +27,24 @@ Or include it directly in your HTML:
 <link rel="stylesheet" href="https://unpkg.com/wicked-animations@1.0.0/dist/wicked.css">
 ```
 
+### Import in JavaScript
+
+If you're using a module bundler (webpack, Parcel, Vite, etc.), you can import the CSS directly in your JavaScript file:
+
+```javascript
+// In your main JavaScript file
+import 'wicked-animations/dist/wicked.css';
+```
+
+### Import in SCSS/Sass
+
+If you're using SCSS/Sass:
+
+```scss
+// In your main .scss file
+@import 'wicked-animations/dist/wicked.css';
+```
+
 ## 🚀 Quick Start
 
 Simply add the appropriate class to any element you want to animate:
