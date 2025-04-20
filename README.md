@@ -1,6 +1,6 @@
 # 🔥 Wicked Animations
 
-A utility-first CSS animation library for creating slick UI & presentation transitions with minimal effort.
+A utility-first CSS animation library for creating slick UI with minimal effort.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://img.shields.io/badge/npm-1.0.0-blue.svg)](https://www.npmjs.com/package/wicked-animations)
@@ -78,33 +78,6 @@ Wicked Animations includes a wide variety of animation effects:
 - Rotate animations
 - Scale animations
 - Special effects (pulse, shake, wave, etc.)
-
-## 🔄 Animation Sequences
-
-Chain multiple animations together with animation sequences:
-
-```html
-<!-- Basic sequence container -->
-<div class="sequence-container sequence-gap-medium">
-  <!-- Each child will animate one after another -->
-  <div class="wicked-fadeIn">First item</div>
-  <div class="wicked-slideInRight">Second item</div>
-  <div class="wicked-bounce">Third item</div>
-</div>
-
-<!-- Add sequence-play class to start the sequence -->
-<button onclick="document.querySelector('.sequence-container').classList.add('sequence-play')">
-  Play Sequence
-</button>
-```
-
-### Sequence Options
-
-- **Timing**: `sequence-fast`, `sequence-normal`, `sequence-slow`
-- **Gaps**: `sequence-gap-small`, `sequence-gap-medium`, `sequence-gap-large`
-- **Auto-play**: Add `sequence-autoplay` to play on page load
-- **Custom delays**: `sequence-delay-100`, `sequence-delay-300`, etc.
-- **Staggered effects**: `sequence-staggered` for varied animations
 
 ## 📄 License
 
